@@ -1,0 +1,14 @@
+{
+  "name": "function_name",
+  "description": "Description for your AWS Lambda function goes here",
+  "region": "aws_region",
+  "handler": "function.lambda_handler",
+  "role": "arn:aws:iam::00000000000:role/lambda_basic_execution",
+  "ignore": [
+    "circle.yml",
+    ".git",
+    "/*.pyc"
+  ],
+  "timeout": 30,
+  "memory": 512
+}
