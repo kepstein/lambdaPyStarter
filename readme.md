@@ -1,6 +1,6 @@
-# Lambda Starter Kit (lambdaStarter)
+# Lambda Python Starter Kit (lambdaPyStarter)
 
-lambdaStarter is a lightweight framework designed to help start new Python based Lambda projects. The starter kit encourages the use of Emulambda, a utility which helps speed up development of Lambda functions by emulating Lambda on your local environment. The starter kit also makes use of the lambda-uploader utility which helps deliver the Lambda function in a consistent way to AWS Lambda.
+lambdaPyStarter is a lightweight framework designed to help start new Python based Lambda projects. The starter kit encourages the use of Emulambda, a utility which helps speed up development of Lambda functions by emulating Lambda on your local environment. The starter kit also makes use of the lambda-uploader utility which helps deliver the Lambda function in a consistent way to AWS Lambda.
 
 # Maintainer
 Kevin Epstein (kevin@epstein.co.za)
@@ -16,7 +16,7 @@ Requirements (non-standard Python libraries that your Lambda function will need)
 # Preparing your environment
 1. Create a new project directory `mkdir my_new_project`
 2. Change to the project directory `cd my_new_project`
-3. Clone this repo into your project directory `git clone https://github.com/kepstein/lambdaStarter .`
+3. Clone this repo into your project directory `git clone https://github.com/kepstein/lambdaPyStarter .`
 4. Start a new virtual environment `virtualenv my_new_project`
 5. Install Emulambda `pip install git+https://github.com/fugue/emulambda.git`
 6. Install lambda-uploader `pip install lambda-uploader`

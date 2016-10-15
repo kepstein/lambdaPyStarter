@@ -1,9 +1,13 @@
 #!/usr/bin/python
+import logging
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
 
 def lambda_handler(event, context):
     # Entry point for Lambda Execution
-    pass
+    print format(event)
 
 
 if __name__ == '__main__':
