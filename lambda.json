@@ -1,6 +1,6 @@
 {
   "name": "lambdaPyStarter",
-  "description": "Description for your AWS Lambda function goes here",
+  "description": "A lightweight starter kit for Python based Lambda functions",
   "region": "us-east-1",
   "handler": "lambda_function.lambda_handler",
   "role": "arn:aws:iam::00000000000:role/lambda_basic_execution",
