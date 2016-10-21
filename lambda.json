@@ -4,7 +4,7 @@
   "region": "us-east-1",
   "handler": "lambda_function.lambda_handler",
   "role": "arn:aws:iam::00000000000:role/lambda_basic_execution",
-  "requirements": [],
+  "requirements": [ ],
   "ignore": [
     ".env",
     ".git",
@@ -16,7 +16,8 @@
     "test/*",
     "lambda.json",
     "lambda.vpc.json",
-    "/*.md"
+    "/*.md",
+    "requirements.txt"
   ],
   "timeout": 30,
   "memory": 128
