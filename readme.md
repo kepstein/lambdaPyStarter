@@ -3,7 +3,7 @@
 lambdaPyStarter is a lightweight framework designed to help start new Python based Lambda projects. The starter kit encourages the use of Emulambda, a utility which helps speed up development of Lambda functions by emulating Lambda on your local environment. The starter kit also makes use of the lambda-uploader utility which helps deliver the Lambda function in a consistent way to AWS Lambda.
 
 # Maintainer
-Kevin Epstein (kevin@epstein.co.za)
+Kevin Epstein
 
 ## Requirements
 Requirements (non-standard Python libraries that your Lambda function will need) should be stored in the [requirements.txt](requirements.txt) file. Packages can also be installed in "editable" form. Editable notation for the requirements.txt file can be found at https://pip.readthedocs.io/en/1.1/requirements.html#the-requirements-file-format
